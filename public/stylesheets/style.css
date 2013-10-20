@@ -1,8 +1,8 @@
 body {
   padding: 40px;
   margin: 0px;
-  color: #fff;
-  background-color: #45484C;
+  color: #191919;
+  background-color: #fff;
   font-family: 'Technik-50';
 }
 
@@ -14,9 +14,13 @@ img.logo {
   width: 140px;
 }
 
+p {
+  font-size: 16px;
+  font-family: 'Technik-200'
+}
+
 nav {
   display: inline-block;
-  float: right;
 }
 
 nav a {
@@ -37,7 +41,6 @@ nav p {
 }
 
 .glyph {
-  width: 140px;
   padding-bottom: 60px;
 }
 
@@ -53,9 +56,8 @@ ul li {
 }
 
 
-
 /* @license
- * MyFonts Webfont Build ID 2631916, 2013-08-28T11:22:28-0400
+ * MyFonts Webfont Build ID 2670022, 2013-10-20T02:39:54-0400
  * 
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are 
@@ -76,7 +78,7 @@ ul li {
  * URL: http://www.myfonts.com/fonts/carnoky/technik/200/
  * 
  * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2631916
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2670022
  * Licensed pageviews: 10,000
  * Webfonts copyright: Copyright (c) 2012 by Samuel Carnoky. All rights reserved.
  * 
@@ -85,36 +87,37 @@ ul li {
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/2828ec");
+@import url("//hello.myfonts.net/count/28bdc6");
 
   
 @font-face {
   font-family: 'Technik-25';
-  src: url('/fonts/2828EC_0_0.eot');
-  src: url('/fonts/2828EC_0_0.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/2828EC_0_0.woff') format('woff'),
-       url('/fonts/2828EC_0_0.ttf') format('truetype');}
+  src: url('/fonts/28BDC6_0_0.eot');
+  src: url('/fonts/28BDC6_0_0.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/28BDC6_0_0.woff') format('woff'),
+       url('/fonts/28BDC6_0_0.ttf') format('truetype');}
  
   
 @font-face {
   font-family: 'Technik-50';
-  src: url('/fonts/2828EC_1_0.eot');
-  src: url('/fonts/2828EC_1_0.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/2828EC_1_0.woff') format('woff'),
-       url('/fonts/2828EC_1_0.ttf') format('truetype');}
+  src: url('/fonts/28BDC6_1_0.eot');
+  src: url('/fonts/28BDC6_1_0.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/28BDC6_1_0.woff') format('woff'),
+       url('/fonts/28BDC6_1_0.ttf') format('truetype');}
  
   
 @font-face {
   font-family: 'Technik-100';
-  src: url('/fonts/2828EC_2_0.eot');
-  src: url('/fonts/2828EC_2_0.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/2828EC_2_0.woff') format('woff'),
-       url('/fonts/2828EC_2_0.ttf') format('truetype');}
+  src: url('/fonts/28BDC6_2_0.eot');
+  src: url('/fonts/28BDC6_2_0.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/28BDC6_2_0.woff') format('woff'),
+       url('/fonts/28BDC6_2_0.ttf') format('truetype');}
  
   
 @font-face {
   font-family: 'Technik-200';
-  src: url('/fonts/2828EC_3_0.eot');
-  src: url('/fonts/2828EC_3_0.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/2828EC_3_0.woff') format('woff'),
-       url('/fonts/2828EC_3_0.ttf') format('truetype');}
+  src: url('/fonts/28BDC6_3_0.eot');
+  src: url('/fonts/28BDC6_3_0.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/28BDC6_3_0.woff') format('woff'),
+       url('/fonts/28BDC6_3_0.ttf') format('truetype');}
+ 
