@@ -1,19 +1,26 @@
 extends layout
 
 block content
-  .grid_8.push_2
+  header.row
+    img.glyph(src="images/cly.png")
+    h2 Creating spaces and experiences that catalyze meaning making.
+  
+  main(role="content").row
     section
-      img.glyph(src="images/cly-logo-b-460.png")
-      h3 Humans exist to create meaning. 
-        br
-        | We exist to help.
-      p We're a small team of humans helping humans make meaning by creating spaces and experiments specifically for meaning makers.
-      p
-        strong
-          em Catalysm: to catalyze meaning.
+      h3 Our projects
+      p.col.span_4
+        a(href="http://novella.io/", target="_blank") Novella
+        | : a transmedium storytelling platform connecting artists to artists and audience. Demo: 
+        a(href="http://lastwebsite.io/", target="_blank") Lastwebsite.io
+      p.col.span_4
+        a(href="http://3rdspace.io/", target="_blank") 3rdspace
+        | : an essentials–only workspace that connects creative minds around critical resources — workspace, WiFi, coffee—and keeps out of the way. Based in PT/WA.
+      p.col.span_4
+        a(href="http://nodex.io/") Nodex
+        | : a next generation text editor that let's you write the way you think, where and when you are.
 
-    section
-      p
-        a(href='http://notes.catalysm.co/') Read our Notes
-      p
-        a(href='mailto:info@catalysm.co') Contact us
+  footer.row
+    p
+      a(href="http://notes.catalysm.co/") Read our notes
+    p
+      a(href="mailto:info@catalysm.co") Email us
