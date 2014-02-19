@@ -1,26 +1,15 @@
+@import url(normalize.css);
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700,400italic,700italic|Alegreya+Sans:400,700,400italic,700italic);
 
 body {
   padding: 40px;
-  margin: 0px;
-  color: #040707;
+  color: #110D11;
   background-color: #fff;
   font: 18px 'Alegreya Sans';
   line-height: 1.2;
-}
-
-a {
-  color: #040707;
-  font-family: "Alegreya Sans SC";
-  font-weight: bold;
-}
-
-p {
-  font-size: 1em;
-}
-
-header, main, footer {
   text-align: center;
+  max-width: 300px;
+  margin: auto;
 }
 
 .glyph {
@@ -29,7 +18,7 @@ header, main, footer {
   margin: auto;
   margin-bottom: 0;
   padding: 0;
-  max-width: 250px;
+  max-width: 200px;
   height: auto !important;
 }
 
@@ -37,26 +26,55 @@ header, main, footer {
   padding: 60px auto;
 }
 
+section, article {
+  margin: 2em 0 0 0;
+}
+
 h1, h2, h3, h4 {
   text-rendering: optimizeLegibility;
+  font-size: 1em; /* 18px */
+  line-height: 1.1667em; /* 21px */
+  margin: 1.1667em 0 0 0;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-weight: normal;
+  font-family: "Alegreya Sans SC";
+  text-transform: lowercase;
+}
+
+h1 + p {
+  margin: 1.1667em 0 0 0;
 }
 
 h3 {
-  color: #040707;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
+  text-transform: lowercase;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.8889em; /* 16px */
+  line-height: 1.3125em; /* 21px */
+  margin-top: 0;  margin-bottom: 0.3125em;
 }
 
-@media (max-width: 530px) {
+a {
+  color: #110D11;
+  font-family: inherit;
+  font-weight: bold;
+  text-transform: inherit;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  font-size: 1em; /* 18px */
+  line-height: 1.1667em; /* 21px */
+  margin: 0 0 1.1667em 0;
+}
+
+/*@media (max-width: 530px) {
   h1 {
     font-size: 1.75em;
   }
   h3 {
     font-size: 1.2em;
   }
-}
+}*/

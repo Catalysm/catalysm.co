@@ -7,10 +7,13 @@ html(lang="en-US")
     meta(name="description", content="Creating spaces and experiences that catalyze meaning making.")
     title= title
     link(href="/images/favicon.ico", rel="shortcut icon", type="image/x-icon")
-    link(rel='stylesheet', href='/stylesheets/normalize.css')
-    link(rel='stylesheet', href='/stylesheets/responsive.css')
     link(rel='icon', type='image/png', href='/images/cly-favicon-a.png')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    .container
+    header
+      img.glyph(src="images/cly.png")
+    main(role="content")
       block content
+    footer
+      h1
+        a(href="mailto:info@catalysm.com") Contact us
