@@ -22,11 +22,7 @@ body {
   height: auto !important;
 }
 
-header, main, footer {
-  padding: 60px auto;
-}
-
-section, article {
+header, main, footer, section, article {
   margin: 2em 0 0 0;
 }
 
