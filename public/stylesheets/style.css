@@ -43,6 +43,10 @@ h1 + p {
   margin: 1.1667em 0 0 0;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 h3 {
   text-transform: lowercase;
   font-style: italic;
@@ -55,7 +59,7 @@ h3 {
 a {
   color: #110D11;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: inherit;
   text-transform: inherit;
   text-rendering: optimizeLegibility;
 }
